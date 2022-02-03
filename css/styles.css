@@ -63,16 +63,20 @@ address {
   width: 1170px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Логотип */
 .logo {
   display: inline-block;
   margin-right: 93px;
   box-sizing: border-box;
-  width: 145px;
-  height: 31px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
   color: rgba(33, 33, 33, 1);
 }
@@ -94,7 +98,7 @@ address {
 }
 
 .list-nav:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .link-nav {
@@ -102,6 +106,7 @@ address {
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
   line-height: 1.14;
   color: var(--link-nav);
 }
@@ -125,6 +130,7 @@ address {
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
   line-height: 1.14;
   color: rgba(117, 117, 117, 1);
 }
@@ -140,6 +146,7 @@ address {
   text-align: center;
   background-color: rgba(47, 48, 58, 1);
 }
+
 .hero-text {
   box-sizing: border-box;
   width: 696px;
@@ -150,6 +157,7 @@ address {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
+  letter-spacing: 0.06em;
   line-height: 1.36;
   color: rgba(255, 255, 255, 1);
 }
@@ -163,6 +171,7 @@ address {
   height: 50px;
   font-weight: bold;
   font-size: 16px;
+  letter-spacing: 0.06em;
   line-height: 1.87;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
@@ -172,13 +181,7 @@ address {
 /* Особенности */
 
 .after-hero {
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-nav:not(:last-child) {
-  margin-right: 30px;
+  padding-bottom: 0px;
 }
 
 .hero-nav {
@@ -211,10 +214,6 @@ address {
 }
 
 /* Чем мы занимаемся */
-
-.work {
-  padding-bottom: 94px;
-}
 
 .work-img {
   display: flex;
@@ -257,12 +256,11 @@ address {
   line-height: 1.16;
   color: var(--title-text);
 }
-.img-worker {
-  margin-bottom: 30px;
-}
 
 .team-itam {
   box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
@@ -270,6 +268,10 @@ address {
 
 .team-itam:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-div {
+  padding: 30px 0px;
 }
 
 .worker {
@@ -281,7 +283,6 @@ address {
   color: var(--title-text);
 }
 .team-text {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -305,6 +306,7 @@ address {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
 }
 
@@ -322,11 +324,6 @@ address {
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 1);
 }
-
-/*.footer-text:hover,
-.footer-text:focus {
-  color: var(--hover);
-}*/
 
 .footer-mail {
   display: inline-block;
